@@ -1,0 +1,36 @@
+{
+  
+    "manifest_version": 2,
+    "name": "Airlines Manager Extender",
+    "version": "0.1",
+    
+    "icons": {
+      "128": "favicon128x128.png",
+      "48": "favicon48x48.png",
+      "16": "favicon16x16.png"
+    },
+
+    "content_scripts": [
+      {
+        "matches": [ "*:///tycoon.airlines-manager.com/*" ],
+        "js": [ "content.js"],
+        "css": [ "style.css" ]
+      }
+    ],
+
+    "permissions": [
+      "storage",
+      "tabs"
+    ],
+
+    "browser_action": {
+      "default_title": "Airlines Airlines Manager Extender",
+      "default_icon": "favicon128x128.png",
+      "default_popup": "popup.html"
+    },
+
+    "web_accessible_resources": [
+      "script.js"
+    ]
+      
+  }

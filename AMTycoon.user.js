@@ -9,5 +9,9 @@
 // ==/UserScript==
 
 (function(window,undefined) {
+ // Check for jQuery installed
+
+ // Add Google Spreadsheets API
+
 
 })();

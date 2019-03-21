@@ -8,8 +8,10 @@
 // @grant        none
 // ==/UserScript==
 
+function Idle() {
+  setTimeout(Idle, 5000); 
+}
+
 (function(window,undefined) {
-  alert(window.location.href);
-
-
+  Idle();
 })();

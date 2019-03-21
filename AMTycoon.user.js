@@ -10,7 +10,7 @@
 
 function Idle() {
   setTimeout(Idle, 5000);
-  alert("23");
+
 }
 
 (function(window,undefined) {

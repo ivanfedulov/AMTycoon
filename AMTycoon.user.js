@@ -4,12 +4,13 @@
 // @version      0.1
 // @description  Airlines Manager
 // @author       Smart Pilot
-// @match        http://tycoon.airlines-manager.com/*
+// @match        https://tycoon.airlines-manager.com/*
 // @grant        none
 // ==/UserScript==
 
 function Idle() {
-  setTimeout(Idle, 5000); 
+  setTimeout(Idle, 5000);
+  alert("23");
 }
 
 (function(window,undefined) {

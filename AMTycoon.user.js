@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AM Add-On
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Airlines Manager
 // @author       Smart Pilot
 // @match        https://tycoon.airlines-manager.com/*

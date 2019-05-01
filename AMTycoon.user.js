@@ -9,6 +9,8 @@
 // @include      https://apis.google.com/js/api.js
 // ==/UserScript==
 
+// connecting to google sheets
+
 
 (function(window,undefined) {
   var divRename = $("<div/>", {

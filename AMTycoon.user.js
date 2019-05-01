@@ -11,6 +11,10 @@
 
 // connecting to google sheets
 
+function connect_to_google() {
+  
+}
+
 
 (function(window,undefined) {
   var divRename = $("<div/>", {
